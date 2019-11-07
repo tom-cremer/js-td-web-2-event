@@ -1,0 +1,39 @@
+body{
+	font: 18px/1.5 "Fira Sans OT", "Trebuchet MS", sans-serif;
+	padding: 1em 0.5em 0 5em;
+}
+h1{
+	color: purple;
+	font-size: 3em;
+	text-transform: uppercase;
+	letter-spacing:0.05em;
+	margin-left: 0.3em;
+}
+#f{
+	border:none;
+}
+legend{
+	margin: 1em 0 0.5em;
+	font-size: 2em;
+}
+br{
+	margin:0.5em;
+}
+input[type="radio"]{
+	margin-bottom: 1.2em;
+}
+input[type="button"]{
+	font: 1.6em/1.5 "Fira Sans OT", "Trebuchet MS", sans-serif;
+	margin-top:2em;
+	padding:1em 1.5em;
+	color:white;
+	background-color: purple;
+	border: 1px solid purple;
+	border-radius:10px;
+	//outline: 2px solid purple;
+}
+input[type="button"]:hover{
+	color:purple;
+	font-weight: bold;
+	background-color: white;
+}

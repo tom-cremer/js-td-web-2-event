@@ -13,7 +13,7 @@ EXERCICE 5 : Change couleur (2) - Colorie la page en fonction des touches press�
 
 
 /* 
-N.B. La méthode de récupération de la touche pressée dan sle tuturiel est dépréciée et plus complquée (on récupère le code de la touche et puis il faue encore y appliquer une fonction pour transformer ce code en lettre) :
+N.B. La méthode de récupération de la touche pressée dans le tutoriel est dépréciée et plus compliquée (on récupère le code de la touche et puis il faut encore y appliquer une fonction pour transformer ce code en lettre) :
 var touche = String.fromCharCode(e.charCode); // Récupération de la touche pressée
 touche = touche.toUpperCase(); // Pour gérer indifféremment minuscules et majuscules
  => il existe une méthode plus directe, voir documentation : 

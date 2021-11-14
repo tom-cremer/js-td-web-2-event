@@ -15,10 +15,10 @@ enregistrer le n° d'article qu'il possède dans ma base de données dans un att
 et le nombre d'exemplaires en stock dans un attribut data-stock
 */
 /*
-Comment récupérer avec JS la valeur de ces attriuts data-index et data-stock ?
+Comment récupérer avec JS la valeur de ces attributs data-index et data-stock ?
 On ne peut pas juste écrire Elt.data-index car cet attribut n'existe pas…
 Tous les data-* sont stockés dans une propriété dataset qui est elle-même un objet.
-Les attributs individuels sont eux-mêmes des propriétés de l'objet dataset. 
+Les attributs individuels sont eux-mêmes des propriétés de l'objet dataset.
 => On a une relation d'emboîtement (même principe que pour style) :
  * dataset est une propriété de ELt qui représente les attributs data-* => Elt.dataset
  * cette propriété dataset est elle-même un objet
@@ -27,11 +27,6 @@ Les attributs individuels sont eux-mêmes des propriétés de l'objet dataset.
  * => Pour accéder à l'attribut data-index, on écrit Elt.dataset.index
 */
 /* EXERCICE :
-Affiche dans la console la valeur de l'attribut data-index de l'iphone XS Max
-et puis affiche "J'ai … iphone(s) XS Max en stock"
+Affiche dans la console la valeur de l'attribut data-index de l'iPhone XS Max
+et puis affiche "J'ai … iPhone(s) XS Max en stock"
 */
-
-
-
-
-

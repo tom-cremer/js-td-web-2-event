@@ -7,7 +7,7 @@ Ta mission est toujours la même : au clic sur un des boutons, colorie la page d
     - Mais cette fois, tu vas le faire en n'utilisant qu'une seule fonction (colorie), au lieu de quatre fonctions différentes…
     Première idée : stocke la couleur dans le code HTML du bouton et récupère-la dans la fonction colorie.
     PRESSÉ ? : copie-colle le code de l'exercice précédent et repars de là, il n'y a qu'à l'adapter un petit peu.
-    - BONUS : Une fois que c'est fait, apporte encore une seconde amélioration à ton code : au lieu de faire quatre appels de fonction différés (un pour chauqe bouton), parcours la liste des boutons avec une boucle (utilise ici la boucle for… of) et affecte-leur l'écouteur d'événement dans la boucle.  
+    - BONUS : Une fois que c'est fait, apporte encore une seconde amélioration à ton code : au lieu de faire quatre appels de fonction différés (un pour chaque bouton), parcours la liste des boutons avec une boucle (utilise ici la boucle for… of) et affecte-leur l'écouteur d'événement dans la boucle.
 */
 
 

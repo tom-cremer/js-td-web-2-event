@@ -1,6 +1,6 @@
 # Javascript - cours 7
 
-## JavaScript - Créer des pages Web interactives, 2e partie : La programmation événementielle 
+## JavaScript - Créer des pages Web interactives, 2e partie : La programmation événementielle
 
 ### Jouez avec vos utilisateurs
 
@@ -8,37 +8,32 @@
 
 #### 1. Réagissez à des événements
 
-- …
-- …
-- …
+- 00-mini-exos-rappels-DOM-POO
+- 01-bonjour-1
+- 02-bonjour-2
+- 03-bonjour-3
+- 04-change-couleur-1
+- 04b-DOM-dataset
 
 #### 2. Manipulez les formulaires
 
-- …
-- …
-- …
+- 05-change-couleur-2
+- 06-change-couleur-3
+- 07-change-couleur-4
 
 #### 3. Animez vos pages
 
-- …
-- …
-- …
-
-
-
-#### VIDÉOS
-
-- …
-- .
+- 08-change-image
+- 09-mini-carousel
+- 10-focus-champ
 
 #### PRÉPAS
 
-- Prépa 1 : …
-- Prépa 2 : …
-- Prépa 3 : …
-- Prépa 4 : …
-- Prépa 5 : …
-- Prépa 6 : …
+- Prépa 1 : https://github.com/hepl-dcc/js-tp-password
+- Prépa 2 : https://github.com/hepl-dcc/js-tp-burger-menu
+- Prépa 3 : https://github.com/hepl-dcc/js-tp-day-night-by-js
+- Prépa 4 : https://github.com/hepl-dcc/js-tp-flex-panel-gallery
+- Prépa 5 : https://github.com/hepl-dcc/js-tp-hold-shift-snd-check-checkboxes
 
 
 ## Sources et ressources
@@ -56,9 +51,10 @@
 - [La Référence du DOM par le MDN](https://developer.mozilla.org/fr/docs/Web/API/Document_Object_Model) ;
 - [La Référence des propriétés CSS par le MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) ;
 - [L'objet Document sur javascript.info](https://javascript.info/document) ;
-- [You might not need jQuery](http://youmightnotneedjquery.com/) ; 
+- [You might not need jQuery](http://youmightnotneedjquery.com/) ;
 - [Matériel du cours d'Openclassrooms sur gitHub](https://github.com/oc-courses/javascript-web)
 - [Matériel du cours Udemy sur gitHub](https://github.com/jonasschmedtmann/complete-javascript-course) ;
 - [Page de ressources de Jonas](http://codingheroes.io/resources/) ;
 - [Page de présentation de Jonas Schmedtmann sur Udemy](https://www.udemy.com/user/jonasschmedtmann/) ;
+
 

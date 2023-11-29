@@ -8,10 +8,34 @@ Au focus sur le champ, vide-le et change sa couleur de fond. Lorsqu'on clique en
 	Fais-le de manière générique avec une seule fonction qui peut s'adapter au champ sur lequel on l'applique et associe cette fonction à tous les champs texte de la page en parcourant ceux-ci avec une boucle for.
 */
 
-// Un seul champ
+document.getElementById("prenom").addEventListener("focus", (e) => {
+    e.currentTarget.value = "";
+    e.currentTarget.style.backgroundColor = "lavender";
+})
 
+const modifs = {
+    inputSelector: document.querySelectorAll("input[type=text]"),
 
-// Deux champs
+    init() {
+        this.inputSelector.forEach((element) => {
+            this.setFocus(element);
+            this.setBlur(element);
+        });
+    },
 
+    setFocus(element) {
+        element.addEventListener("focus", (e) => {
+            e.currentTarget.value = "";
+            e.currentTarget.style.backgroundColor = "lavender";
+        });
+    },
 
-// Plusieurs champs
+    setBlur(element) {
+        element.addEventListener("blur", (e) => {
+            e.currentTarget.style.backgroundColor = "white";
+        });
+    }
+
+}
+
+modifs.init();

@@ -22,3 +22,5 @@ document.getElementById("yellow").addEventListener("click", () => {
 document.getElementById("blue").addEventListener("click", () => {
     document.body.style.backgroundColor = "blue";
 });
+
+
